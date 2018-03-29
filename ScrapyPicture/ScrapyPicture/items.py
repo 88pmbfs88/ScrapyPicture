@@ -14,3 +14,4 @@ class ScrapypictureItem(scrapy.Item):
     pic_name = scrapy.Field()
     pic_path = scrapy.Field()
     pic_url = scrapy.Field()
+    pic_no = scrapy.Field()
