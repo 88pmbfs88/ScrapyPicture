@@ -92,3 +92,6 @@ IMAGES_STORE = "D:/Users/Images"
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# 下载图片302重定向
+MEDIA_ALLOW_REDIRECTS =True
